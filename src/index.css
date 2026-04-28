@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: 'DM Mono', monospace;
+  color: #111827;
+  background: #ffffff;
+  --bg-panel: #f8fafc;
+  --color-teal: #00c2b2;
+  --color-red: #ef4444;
+}
+
+body {
+  min-height: 100vh;
+  background: #ffffff;
+  color: #111827;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
